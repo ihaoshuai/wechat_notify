@@ -1,0 +1,18 @@
+[workspace]
+members = ["msg_listener", "wechat_notify", "wechat_notify_common"]
+resolver = "3"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+
+[workspace.dependencies]
+anyhow = "1.0.100"
+arc-swap = "1.8.0"
+eframe = "0.33.3"
+env_logger = "0.11.8"
+log = "0.4.29"
+windows = {version = "0.62.2", features = ["Win32_Foundation", "Win32_UI_WindowsAndMessaging", "Win32_System_Diagnostics_Debug", "Win32_System_LibraryLoader", "Win32_System_SystemServices", "Win32_System_Pipes", "Win32_Security", "Win32_Storage_FileSystem", "Win32_System_IO", "Win32_System_Threading"]}
+windows-capture = "1.5.0"
+serde = { version = "1.0.228", features = ["derive"] }
+wmi = "0.18.0"

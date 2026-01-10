@@ -1,0 +1,16 @@
+[package]
+name = "wechat_notify"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+windows = { workspace = true }
+wechat_notify_common = { path = "../wechat_notify_common" }
+env_logger = { workspace = true }
+log = { workspace = true }
+anyhow = { workspace = true }
+eframe = { workspace = true }
+windows-capture = { workspace = true }
+arc-swap = { workspace = true }
+wmi = { workspace = true }
+serde = { workspace = true }

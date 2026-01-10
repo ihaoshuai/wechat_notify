@@ -1,0 +1,12 @@
+[package]
+name = "msg_listener"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+windows = { workspace = true }
+wechat_notify_common = { path = "../wechat_notify_common" }
+anyhow = { workspace = true }
+
+[lib]
+crate-type = ["cdylib"]

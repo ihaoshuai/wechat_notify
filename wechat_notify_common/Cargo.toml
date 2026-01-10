@@ -1,0 +1,7 @@
+[package]
+name = "wechat_notify_common"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+windows = { workspace = true }
