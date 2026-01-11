@@ -24,3 +24,7 @@
 2. Windows Management Instrumentation
 3. egui
 4. dll注入
+
+## 测试环境
+微信: 4.1.5.30
+windows: 10
